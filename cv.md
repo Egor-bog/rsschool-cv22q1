@@ -8,6 +8,7 @@ ___
 ##### Github: [https://github.com/Egor-bog/](https://github.com/Egor-bog/)
 
 ## Summary:
+
 From school times he was fond of programming. So in the 10th grade I wrote the game "Sea Battle" in basic language. Subsequently, working in engineering positions in the construction industry, to optimize labor, he studied and wrote macros for Excel. Periodically he created small business card sites to advertise his work. Nowadays I have come to the conclusion that the goal of my life is to become a developer.## Skills:
 + **HTML5**
 + **CSS3 (SASS, SCSS)**
