@@ -1,4 +1,4 @@
-window.addEventListener('load', () => {
+
     console.group()
     console.log('+10 - вёрстка валидная https://validator.w3.org/nu/?doc=https%3A%2F%2Fegor-bog.github.io%2Frsschool-cv%2F')
     console.log('+10 - вёрстка семантическая (main, article, section, header, footer, nav, figure, figcaption, picture, h1, h2, h3)')
@@ -17,7 +17,6 @@ window.addEventListener('load', () => {
     console.log('+10 - дизайн, оформление, качество выполнения CV не ниже чем в примерах CV, приведённых в материалах к заданию')
     console.groupEnd()
 
-})
 
 
 document.querySelectorAll('a[href^="#"').forEach(link => {
