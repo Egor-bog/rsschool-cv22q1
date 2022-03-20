@@ -17,6 +17,8 @@ window.addEventListener('load', () => {
     console.log('+10 - дизайн, оформление, качество выполнения CV не ниже чем в примерах CV, приведённых в материалах к заданию')
     console.groupEnd()
 
+})
+
 
 document.querySelectorAll('a[href^="#"').forEach(link => {
 
