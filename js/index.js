@@ -16,7 +16,6 @@ window.addEventListener('load', () => {
     console.log('- есть видеорезюме автора CV на английском языке')
     console.log('+10 - дизайн, оформление, качество выполнения CV не ниже чем в примерах CV, приведённых в материалах к заданию')
     console.groupEnd()
-});   
 
 
 document.querySelectorAll('a[href^="#"').forEach(link => {
@@ -65,7 +64,6 @@ const iconMenu = document.querySelector('.menu__icon');
 const menuBody = document.querySelector('.menu__body');
 
 if(iconMenu) {
-    console.log(iconMenu)
     iconMenu.addEventListener('click', function(e) {
         iconMenu.classList.toggle('_active');
         menuBody.classList.toggle('_active');
