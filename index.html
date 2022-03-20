@@ -1,100 +1,251 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=1024">
-    <title>Egor Bogurov</title>    
-    <link rel="stylesheet" href="./styles/styles.css">
-  </head>
-  <body class="body_color">
-    <div class="block_settings">
-        <h1 class="link_activation">
-          <a href="https://Egor-bog.github.io/Egor/index">rsschool-cv</a>
-        </h1>
-        <hr>
-        <h2>Yahor Bahurau</h2>
-        <img height="200"  src=./img/photo.JPG alt="Yahor Bahurau photo">
-        <h3>Junior Front-End Developer</h3>
-        <hr>
-            <h2>Contacts:</h2>
-            <ul class="link_activation">
-              <li>
-                <p><strong>Phone: </strong> <a href="tel:+375297548494">+375297548494 (MTS, Viber)</a></p>
-              </li>
-              <li>
-                <p><strong>Email: </strong> <a href="mailto:7548494@gmail.com">7548494@gmail.com</a> </p>
-              </li>
-              <li>
-                <p><strong>Githud: </strong> <a href="https://github.com/Egor-bog">https://github.com/Egor-bog</a>  </p>
-              </li>
-            </ul>
-          <hr>
-            <h2>Summary: </h2>
-            <p> From school times he was fond of programming. So in the 10th grade I wrote the game
-               “Sea Battle” in basic language. Subsequently, working in engineering positions in the
-                construction industry, to optimize labor, he studied and wrote macros for Excel. Periodically
-                 he created small business card sites to advertise his work. Nowadays I have come to the
-                  conclusion that the goal of my life is to become a developer.</p>
-          <hr>
-            <h2>Skills: </h2>
-            <ul>
-              <li>
-                <strong>HTML5</strong>
-              </li>
-              <li>
-                <strong>CSS3 (SASS, SCSS)</strong>
-              </li>
-              <li>
-                <strong>JavaScript (ES5, ES6)</strong>
-              </li>
-              <li>
-                <strong>Git</strong>
-              </li>
-              <li>
-                <strong>VSCode, Sublime Text 3</strong>
-              </li>
-              <li>
-                <strong>Chrome Dev Tools, ESLint, Prettier</strong>
-              </li>
-              <li>
-                <strong>Adobe Photoshop</strong>
-              </li>
-            </ul>
-          <hr>
-            <h2>Code:</h2>
-            <p class="link_activation">
-              <strong> 
-               <em>  
-                examples on Github by 
-              <a href="https://Egor-bog.github.io/rsschool-cv/cv">reference</a>  </em>
-              </strong>
-            </p>
-          <hr>
-            <h2>Experience:</h2>
-            <p class="link_activation">
-              <strong>
-                <em>
-                  There is experience on educational projects, all the developments on my public account
-                   on github pages
-                  <a href="https://Egor-bog.github.io">https://Egor-bog.github.io</a> 
-                </em>
-              </strong>
-            </p>
-          <hr>
-            <h2>Education: </h2>
-            <dl>
-              <dt>2000</dt>
-            <dd>Secondary special education. Lawyer.</dd>
-            <dt>2013</dt>
-            <dd>Higher technical education. Civil engineer.</dd>
-            </dl>
-          <hr>
-            <h2>English level: A2</h2>
-          <hr>
-        <footer class="footer_titel">
-          <h4><a href="https://Egor-bog.github.io/rsschool-cv/">Githud - 2021</a></h4>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>CV-Egor</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="cont-menu menu">
+                <div class="menu__icon">
+                    <span></span>
+                </div>
+                <nav class="menu__body">
+                    <ul>
+                        <li>
+                            <a href="#information">Main information</a>
+                        </li>
+                        <li>
+                            <a href="#education">Education</a>
+                        </li>
+                        <li>
+                            <a href="#experience">Experience</a>
+                        </li>
+                        <li>
+                            <a href="#skills">Skills</a>
+                        </li>
+                        <!-- <li>
+                            <a href="#portfolio">Portfolio</a>
+                        </li> -->
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <aside class="aside">
+            <div class="as-wrapper">
+                <div class="block-img">
+                    <div class="block-img__img">
+                        <picture>
+                            <img class="block-img__img__foto"src="./img/foto.JPG" alt="foto">
+                        </picture>
+                    </div>
+                    <div class="block-img__text">
+                        <h1>Bogurov Egor</h1>
+                        <span>Frontend developer</span>
+                    </div>
+                </div>
+                <ul class="dlock-contakts">
+                    <li>
+                        <div class="dlock-contakts__icon">
+                            <img src="./img/email.svg" alt="">
+                        </div>
+                        <a href="mailto:7548494@gmail.com">7548494@gmail.com</a>
+                    </li>
+                    <li>
+                        <div class="dlock-contakts__icon">
+                            <img src="./img/phone.svg" alt="">
+                        </div>
+                        <a href="tel:+375297548494">+48 577-988-507</a>
+                    </li>
+                    <li>
+                        <div class="dlock-contakts__icon">
+                            <img src="./img/placemark.svg" alt="">
+                        </div>
+                        <a href="https://goo.gl/maps/MtQJHi51HzT3227H6"
+                            target="_blank">Poland, Warszawa</a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <main class="main">
+            <div class="as-wrapper">
+                <section class="information" id="information">
+                    <h2 class="information__title">
+                        <span>Information</span>
+                    </h2>
+                    <div class="information__block">
+                        <span class="information__block__title">Lastname:</span>
+                        <span class="information__block__text">Bogurov</span>
+                    </div>
+                    <div class="information__block">
+                        <span class="information__block__title">Firstname:</span>
+                        <span class="information__block__text">Egor</span>
+                    </div>
+                    <div class="information__block">
+                        <span class="information__block__title">Date of birth:</span>
+                        <span class="information__block__text">07-01-1981</span>
+                    </div>
+                    <div class="information__block">
+                        <span class="information__block__title">Hometown:</span>
+                        <span class="information__block__text">Vileyka, Belarus</span>
+                    </div>
+                    <div class="information__block">
+                        <span class="information__block__title">About myself:</span>
+                        <div class="information__block__text">
+                            <p>I have two educations: Legal and Civil Engineering.</p>
+                            <p>Stability makes you learn new directions, including Java Script</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="education" id="education">
+                    <h2 class="information__title">
+                        <span>Education</span>
+                    </h2>
+                    <div class="information__block">
+                        <span class="information__block__title">Educational institution:</span>
+                        <span class="information__block__text">Yanka Kupala
+                            State University of Grodno</span>
+                    </div>
+                    <div class="information__block">
+                        <span class="information__block__title">City of training:</span>
+                        <span class="information__block__text">Grodno, Belarus</span>
+                    </div>
+                    <div class="information__block">
+                        <span class="information__block__title">Qualification:</span>
+                        <span class="information__block__text">Civil engineer</span>
+                    </div>
+                    <div class="information__block">
+                        <span class="information__block__title">Year of graduation :</span>
+                        <span class="information__block__text">2013</span>
+                    </div>
+                    <div class="information__block">
+                        <span class="information__block__title">English level:</span>
+                        <span class="information__block__text">A2+</span>
+                    </div>
+                </section>
+                <section class="main-block" id="experience">
+                    <h2 class="information__title">
+                        <span>Experience</span>
+                    </h2>
+                    <div class="main-block__group">
+                        <span class="information__block__title">Work experience:</span>
+                        <div class="information__block__text">
+                            <ul>
+                                <li>
+                                    <p>Mechatronics CJSC</p>
+                                    <p>Operational Engineer</p>
+                                    <div class="information__block__title">
+                                        <p>01/2020 - until now</p>
+                                        <p>Deployment and support of company websites and applications. SEO promotion.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="skills" id="skills">
+                    <h2 class="information__title">
+                        <span>Skills</span>
+                    </h2>
+                    <div class="information__block">
+                        <span class="information__block__title">Main skills:</span>
+                        <div class="information__block__text">
+                            <ul class="skills-point">
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>Scss, Less</li>
+                                <li>JavaScript</li>
+                                <li>React (basic knowledge)</li>
+                                <li>Git (GitHub, GitLab)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="information__block">
+                        <span class="information__block__title">Additional skills:</span>
+                        <div class="information__block__text">
+                            <ul class="skills-point">
+                                <li>Figma</li>
+                                <li>Photoshop</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <article>
+            <p>Example of javascript code used on this page:</p>
+            <div class="wrapper active">
+                <div class="accordion__title js-acc-btn">
+                    <h3>Code example</h3>
+                    <div class="accordion__btn"></div>
+                </div>
+                <div class="accordion__dropdown">
+                    <pre>
+                        <code>
+        function getSiblings(elem) {
+            let siblings = [],
+                sibling = elem
+        
+            while (sibling.previousSibling) {
+                sibling = sibling.previousSibling
+                sibling.nodeType == 1 && siblings.push(sibling)
+            }
+        
+            sibling = elem
+        
+            while (sibling.nextSibling) {
+                sibling = sibling.nextSibling
+                sibling.nodeType == 1 && siblings.push(sibling)
+            }
+        
+            return siblings
+        }
+        
+        function animate({ duration, timing, draw }) {
+            let start = performance.now()
+        
+            requestAnimationFrame(function animate(time) {
+                let timeFraction = (time - start) / duration
+                if (timeFraction > 1) timeFraction = 1
+        
+                let progress = timing(timeFraction)
+                draw(progress)
+        
+                if (1 > timeFraction) {
+                    requestAnimationFrame(animate)
+                }
+            })
+        }
+                        </code>
+                    </pre>
+                </div>
+            </div>
+        </article>
+        <footer class="footer">
+            <div class="as-wrapper">
+                <div class="footer-logo">
+                    <a href="https://github.com/Egor-bog" target="_blank">
+                        <img src="./img/github.svg" alt="icon">
+                    </a>
+                </div>
+                <div class="footer-text">2021</div>
+                <div class="footer-logo">
+                    <a href="https://rs.school/js/" target="_blank">
+                        <img src="./img/rs-school-js.svg" alt="icon">
+                    </a>
+                </div>
+            </div>
         </footer>
-    </div>    
-  </body>
+    </div>
+    <script src="/js/index.js"></script>
+</body>
 </html>
