@@ -3,7 +3,7 @@
 ### Junior Front-End Developer
 ___
 ## Contacts:
-##### +375(29)7548494(MTS, Viber)
+##### +48 577988507(Viber)
 ##### Email: 7548494@gmail.com
 ##### Github: [https://github.com/Egor-bog/](https://github.com/Egor-bog/)
 
