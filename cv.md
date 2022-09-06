@@ -14,6 +14,7 @@ From school times he was fond of programming. So in the 10th grade I wrote the g
 + **JavaScript (ES5, ES6)**
 + **React**
 + **Git**
++ **Figma**
 + **VSCode, Sublime Text 3**
 + **Chrome Dev Tools, ESLint, Prettier**
 + **Adobe Photoshop**
